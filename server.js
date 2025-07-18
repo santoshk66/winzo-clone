@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const filePath = path.join(process.cwd(), 'backend', 'users.json');
+const filePath = path.join(__dirname, 'users.json');
 
 // Load all users
 app.get('/users', async (req, res) => {
