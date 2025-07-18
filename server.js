@@ -1,7 +1,7 @@
-import express from 'express';
-import fs from 'fs/promises';
-import cors from 'cors';
-import path from 'path';
+const express = require('express');
+const fs = require('fs').promises;
+const cors = require('cors');
+const path = require('path');
 
 const app = express();
 app.use(cors());
