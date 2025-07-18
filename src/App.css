@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #1e293b;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.app {
+  background: #334155;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 8px 0;
+  border-bottom: 1px solid #475569;
+}

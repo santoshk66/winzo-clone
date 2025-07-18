@@ -1,0 +1,8 @@
+[
+  {
+    "id": "u001",
+    "email": "test@example.com",
+    "wallet": 100,
+    "gamesPlayed": []
+  }
+]
